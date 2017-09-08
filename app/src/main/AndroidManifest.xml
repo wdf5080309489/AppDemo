@@ -33,7 +33,9 @@
 
         <activity android:name=".ui.lazyload.LazyloadActivity" />
         <activity android:name=".ui.inputmethod.InputMethodActivity" />
-        <activity android:name=".ui.material.activitytransition.TransitionActivity"></activity>
+        <activity android:name=".ui.material.activitytransition.TransitionActivity" />
+        <activity android:name=".ui.recycler.RecyclerMainActivity" />
+        <activity android:name=".ui.recycler.decoration.ItemDecorationActivity"></activity>
     </application>
 
 </manifest>

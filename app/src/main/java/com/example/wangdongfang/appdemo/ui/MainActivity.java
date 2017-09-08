@@ -16,13 +16,15 @@ import com.example.wangdongfang.appdemo.R;
 import com.example.wangdongfang.appdemo.ui.inputmethod.InputMethodActivity;
 import com.example.wangdongfang.appdemo.ui.lazyload.LazyloadActivity;
 import com.example.wangdongfang.appdemo.ui.material.activitytransition.TransitionActivity;
+import com.example.wangdongfang.appdemo.ui.recycler.RecyclerMainActivity;
 
 public class MainActivity extends AppCompatActivity {
 
     private final static Class[] classData = new Class[] {
             InputMethodActivity.class,
             LazyloadActivity.class,
-            TransitionActivity.class
+            TransitionActivity.class,
+            RecyclerMainActivity.class
     };
 
     @Override
